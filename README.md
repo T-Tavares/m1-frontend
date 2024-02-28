@@ -1,30 +1,22 @@
-# React + TypeScript + Vite
+# Mission Ready - Mission 1 Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is part of Mission Ready Course. Where I was asked to create an API to calculate an Insurance Plan.
+The API have to take a:
 
-Currently, two official plugins are available:
+-   Car Model, Car Year and Drivers Claim.
+-   Convert to a Car Value, Risk Rating.
+-   Convert to a Monthly and Yearly Insurance Quote.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repo holds a simple front end of that project just for showcase the API.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Buying Experience Re-design at Turners Car Insurance
 
-- Configure the top-level `parserOptions` property like this:
+#### The Project Brief
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Turners is currently undertaking a major re-design of its motor vehicle insurance systems and processes, including an investigation of ways in which the introduction of new technologies can enhance the buyer experience. [Here is some information about motor vehicle insurance at Turners](https://www.turners.co.nz/Cars/finance-insurance/car-insurance/). You have just been assigned to work on this project to help create a new insurance buying experience.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Used Technologies
+
+Typescript, React, NodeJS, Express, Jest

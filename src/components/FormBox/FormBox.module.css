@@ -1,0 +1,66 @@
+.formBox,
+.result {
+    /* min-height: 50vh; */
+    min-width: 90vw;
+    position: relative;
+    border: 2px solid #2429396b;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.btns {
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+}
+.btns button {
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    border-radius: 50%;
+    color: #ddd;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.generateQuoteBtn {
+    background-color: #192954;
+}
+.addEntry {
+    background-color: #195436;
+}
+.removeEntry {
+    background-color: #542319;
+}
+.autoFill {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.autoFill label {
+    cursor: pointer;
+}
+.autoFill input {
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 1rem;
+}
+.result table {
+    width: 100%;
+    border: 1px solid #13202d;
+    padding: 1rem;
+    border-radius: 8px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.result table th,
+.result table td {
+    text-align: center;
+    border: 1px solid #13202d;
+    margin: 0;
+    padding: 1rem;
+}

@@ -1,0 +1,76 @@
+{
+    "entriesArr": [
+        {
+            "driver_name": "Jeff",
+            "car_model": "Civic",
+            "car_year": 2014,
+            "claim_history": "My only claim was a crash into my house's garage door that left a scratch and bump on my car. There are no other crashes nor collisions.",
+
+            "expected": {
+                "driverName": "Jeff",
+                "carModel": "Civic",
+                "carYear": 2014,
+                "riskRating": 5,
+                "carValue": 6614,
+                "monthlyPremium": 27.5,
+                "yearlyPremium": 330
+            }
+        },
+        {
+            "driver_name": "Henry",
+            "car_model": "Honda",
+            "car_year": 2020,
+            "claim_history": "I am an amazing driver. My car has zero bumps and I've never crashed it.",
+
+            "expected": {
+                "driverName": "Henry",
+                "carModel": "Honda",
+                "carYear": 2020,
+                "riskRating": 2,
+                "carValue": 6220,
+                "monthlyPremium": 10.3,
+                "yearlyPremium": 124
+            }
+        },
+        {
+            "driver_name": "",
+            "car_model": "Honda",
+            "car_year": 2020,
+            "claim_history": "I am an amazing driver. My car has zero bumps and I've never crashed it.",
+
+            "expected": {
+                "error": "ERROR - Driver Name input is empty."
+            }
+        },
+        {
+            "driver_name": "Amanda",
+            "car_model": "",
+            "car_year": 2020,
+            "claim_history": "I am an amazing driver. My car has zero bumps and I've never crashed it.",
+
+            "expected": {
+                "error": "ERROR - Car Model input is empty."
+            }
+        },
+        {
+            "driver_name": "Amanda",
+            "car_model": "Toyota",
+            "car_year": 1800,
+            "claim_history": "I am an amazing driver. My car has zero bumps and I've never crashed it.",
+
+            "expected": {
+                "error": "ERROR - Car Year input is NOT valid."
+            }
+        },
+        {
+            "driver_name": "Suzan",
+            "car_model": "Toyota",
+            "car_year": 2015,
+            "claim_history": "",
+
+            "expected": {
+                "error": "ERROR - There was a problem while calculating your Insurance Risk Rating."
+            }
+        }
+    ]
+}
